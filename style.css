@@ -3,9 +3,7 @@ body {
 }
 
 .soft-color-h1 {
-    color: 1D1D1D;
-    font-size: 45px;
-    font-weight: ;
+    color: #1D1D1D;
 }
 
 .soft-color-h4 {
@@ -14,7 +12,11 @@ body {
     font-weight: 600;
 }
 
-/* slider */
+.elearning-p-color {
+    color: #777777;
+}
+
+/* slider
 .carousel-item {
     height: 70vh;
     min-height: 300px;
@@ -40,12 +42,41 @@ body {
     top: 0;
     padding-top: 170px;
     padding-bottom: 100px;
-    /* bottom: 180px; */
 }
 
 .carousel-caption h1 {
     font-size: 65px;
-}
+} */
 
 /* start  */
 /* main  */
+/* @media (min-width: 768px) {
+    .soft-color-h1 {
+        font-size: 25px;
+    }
+
+    .soft-popular-width {
+        width: 100% !important;
+        ;
+    }
+} */
+
+@media (max-width: 991px) {
+    .soft-register-info {
+        text-align: center !important;
+    }
+
+    .trusted-client {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .successfull-students {
+        text-align: center !important;
+    }
+
+    .trusted-client {
+        display: none;
+    }
+}
